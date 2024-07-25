@@ -24,9 +24,9 @@ console.log(`${studentDetails.firstName} ${studentDetails.lastName} Passed in Te
   let gautamDetails=["Gautam Gambhir",44,"Natasha Jain","Deepak Gambhir","Left-handed","Top order Batsman"];
 console.log(gautamDetails);
 console.log(gautamDetails[3]);
- let{GautamFirstName,
+ let[GautamFirstName,
 GautamLastName,
-GautamAge,GautamSpouseName,GautamFatherName,Role,}=gautamDetails;
+GautamAge,GautamSpouseName,GautamFatherName,Role]=gautamDetails;
 
 console.log(GautamFirstName,
 GautamLastName,
